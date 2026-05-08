@@ -88,13 +88,13 @@
 
         arrows {
             // ---------------------------------------------------------------------------------------------
-            // |       |     |     |     |     |     |   |     |     |     |     | PGUP| PGDN |
+            // |STUDIO |     |     |     |     |     |   |     |     |     |     | PGUP| PGDN |
             // |       |     |     |     |     |     |   | LFT | DWN | UP  | RGT |     |      |
             // |       |     |     |     |     |     |   |     |     |     |     | HOME| END  |
             //                     |     |     |     |   |     |     |     |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &kp PAGE_UP  &kp PAGE_DOWN
+&studio_unlock  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &kp PAGE_UP  &kp PAGE_DOWN
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans       &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &kp HOME     &kp END
                         &trans  &trans  &trans    &trans    &trans    &trans
