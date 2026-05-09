@@ -34,7 +34,7 @@
         compatible = "zmk,conditional-layers";
 
         arrows {
-            if-layers = <1 0>;
+            if-layers = <1 2>;
             then-layer = <3>;
         };
     };
@@ -95,7 +95,7 @@
             //                     |     |     |     |   |     |     |     |
 
             bindings = <
-&studio_unlock  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &kp PAGE_UP  &kp PAGE_DOWN
+&trans          &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &kp PAGE_UP  &kp PAGE_DOWN
 &trans          &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans       &trans
 &trans          &trans  &trans  &trans  &trans  &kp W     &trans    &trans    &trans  &trans     &kp HOME     &kp END
                                 &trans  &trans  &trans    &trans    &trans    &trans
